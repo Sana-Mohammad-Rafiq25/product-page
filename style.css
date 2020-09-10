@@ -50,11 +50,11 @@
         font-size: 100px;
         opacity: .6;
         line-height: 1em;
-    font-weight: 700;
-    margin-left: 52%;
-    color:#fff;
-    /* margin-left: -6px; */
-    padding-top: 8%;
+        font-weight: 700;
+        margin-left: 52%;
+        color:#fff;
+      /* margin-left: -6px; */
+        padding-top: 8%;
     }
 }
 
