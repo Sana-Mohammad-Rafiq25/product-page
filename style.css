@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+
+}
+#hero {
+    background-image: url("https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-screen-bg-md.jpg");
+    /* height: 80vh; */
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-image: 100%;
+    padding: 200px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0;
+
+}
+#hero #heading2 {
+    font-size: 50px;
+    padding: 0px 0px 18px;
+    text-align: left;
+    color: #ffffff;
+    text-shadow: 3px 0px 4px black;
+    
+}
+#hero #para{
+color: #ffffff;
+text-align: left;
+
+}
+.sm-png img{
+    margin:0px 0px 0px -10px;
+    width: 70%;
+    height: 50%;
+}
+.random{
+    margin-left: 30%;
+    background-color:#F4F8FB;
+}
+.random #para2{ 
+    text-align: left;
+}
+.random #magical {
+    font-size: 50px;
+    padding: 0px 0px 18px;
+    text-align: left;
+    color: #000;
+  
+    
+    
+}
+@media (max-width: 1440px){
+#hero #para {
+    width: 580px;
+}
+ }
+ @media (max-width: 1440px){
+ #hero #heading2{
+    font-size: 38px;
+}
+}
+@media (max-width: 1440px){
+    .random #para2{
+    width: 800px;
+}
+}@media (max-width: 1440px){
+.random {
+    padding-top: 72px;
+}
+}
