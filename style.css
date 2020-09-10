@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
-
+    font-family: 'Montserrat', sans-serif;
 }
+
 #hero {
     background-image: url("https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-screen-bg-md.jpg");
     /* height: 80vh; */
@@ -9,60 +10,145 @@
     /* background-size: 100%; */
     background-image: 100%;
     padding: 200px;
-    font-family: 'Montserrat', sans-serif;
     padding-bottom: 0;
-
 }
+
 #hero #heading2 {
     font-size: 50px;
     padding: 0px 0px 18px;
     text-align: left;
     color: #ffffff;
     text-shadow: 3px 0px 4px black;
-    
 }
-#hero #para{
-color: #ffffff;
-text-align: left;
 
+#hero #para {
+    color: #ffffff;
+    text-align: left;
 }
-.sm-png img{
-    margin:0px 0px 0px -10px;
+
+.sm-png img {
+    margin: 0px 0px 0px -10px;
     width: 70%;
     height: 50%;
 }
-.random{
-    margin-left: 30%;
-    background-color:#F4F8FB;
+
+.lock {
+    margin-top: 5%;
 }
-.random #para2{ 
+
+.lock .title {
+    padding-top: 5%;
+}
+
+.random,
+.battery,
+.lock {
+    padding-left: 30%;
+    /* background-color: #F4F8FB; */
+}
+
+.smooth {
+    color: #fff;
+    /* padding-left: 30%; */
+}
+
+.smooth {
+    background: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-performance-bg-sm.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.smooth .title {
+    padding-left: 30%;
+}
+
+.random #para2 {
     text-align: left;
 }
-.random #magical {
+
+.magical-img img {
+    height: 80%;
+    width: 70%;
+}
+
+#battery-img img {
+    height: 60%;
+    width: 70%;
+}
+
+#battery-img {
+    margin-right: 5%;
+}
+
+.random #magical,
+.battery #heading3 {
     font-size: 50px;
     padding: 0px 0px 18px;
     text-align: left;
     color: #000;
-  
-    
-    
 }
-@media (max-width: 1440px){
-#hero #para {
-    width: 580px;
-}
- }
- @media (max-width: 1440px){
- #hero #heading2{
+
+.lock h2 {
     font-size: 38px;
 }
+
+.lock {
+    background-color: #F1FBFF;
 }
-@media (max-width: 1440px){
-    .random #para2{
-    width: 800px;
+
+.lock p,
+.smooth p {
+    line-height: 2;
 }
-}@media (max-width: 1440px){
-.random {
-    padding-top: 72px;
+
+.face-lock img {
+    /* background-image: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-unlocking-img1-sm.png); */
+    background-size: 424px 517px;
+    width: 424px;
+    height: 517px;
+    z-index: 8;
+    margin-left: 6%;
 }
+
+.lock-images {
+    margin-top: 5%;
+}
+
+.finger-print {
+    background-image: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-unlocking-img2-sm.png);
+    background-size: 420px 516px;
+    width: 420px;
+    height: 516px;
+    margin-top: -49%;
+    margin-left: 35%;
+}
+
+.battery {
+    margin-top: 5%;
+}
+
+@media (max-width: 1440px) {
+    #hero #para {
+        width: 580px;
+    }
+}
+
+@media (max-width: 1440px) {
+    #hero #heading2 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .random #para2,
+    .lock p {
+        width: 800px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .random {
+        padding-top: 72px;
+    }
 }
