@@ -1,36 +1,188 @@
-* {
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
+
+
+
+
+
+
+
+/* 
+#battery-img img {
+    height: 60%;
+    width: 70%;
+} */
+
+
+/* 
+@media (min-width: 768px) {
+    #hero #para {
+        width: 780px;
+        line-height: 2;
+    }
+} */
+/* 
+@media (min-width: 768px) {
+    #hero #heading2 {
+        font-size: 38px;
+    }
+} */
+
+
+@media (min-width: 768px) {
+    .random #para2,
+    .lock p,
+    .battery #para2 {
+        width: 800px;
+        line-height: 2;
+        color: #000;
+    }
+    .random {
+        padding-top: 72px;
+    }
+    .battery .power {
+        background-image: url(http://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-batter-img1-sm.jpg);
+        background-size: 789px 297px;
+        width: 789px;
+        height: 297px;
+        margin-left: -20px;
+      
+    }
+    .battery .power #num1{
+        font-size: 100px;
+        opacity: .6;
+        line-height: 1em;
+    font-weight: 700;
+    margin-left: 52%;
+    color:#fff;
+    /* margin-left: -6px; */
+    padding-top: 8%;
+    }
 }
 
+/* @media (max-width: 720px) {
+    #hero {
+        background-size: 1152px 585px;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 1152px;
+        height: 585px;
+        left: 50%;
+        margin-left: -576px;
+    }
+} */
+@media (max-width: 600px) {
+
+
+    * {
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+    }
+    
 #hero {
-    background-image: url("https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-screen-bg-md.jpg");
-    /* height: 80vh; */
-    background-repeat: no-repeat;
-    /* background-size: 100%; */
+    background-image: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-screen-bg-md.jpg);
+    background-size: 1152px 585px;
+    /* background-position: center; */
+    /* background-size: cover; */
     background-image: 100%;
-    padding: 200px;
-    padding-bottom: 0;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 585px;
+    /* left: 50%; */
+    margin-left: 0;
+    margin-right: 0;
+    /* padding-right: 15%; */
+    
+    
 }
-
+#hero .content
+{
+text-align: center;
+}
 #hero #heading2 {
-    font-size: 50px;
-    padding: 0px 0px 18px;
+     
+        font-weight: 700;
+        line-height: 1.4;
+        text-align: left;
+        margin: 0 20px;
+        font-size: 30px;
+        color: #ffffff;
+        padding: 5px;
+    }
+    
+#hero #para {
+    margin: auto 20px;
+    width: auto;
     text-align: left;
+    line-height: 1.8;
+    font-size: 16px;
     color: #ffffff;
-    text-shadow: 3px 0px 4px black;
+    padding: 5px;
+
+}
+#hero .sm-png{
+    background-size: 334px 162px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 334px;
+    height: 162px; */
+    left: 50%;
+    /* margin-left: -167px; */
+    bottom: 20px;
 }
 
-#hero #para {
+}@media only screen   
+and (min-device-width : 768px)   
+and (max-width: 1446px) {
+    * {
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+    }
+    #hero {
+        background-image: url("https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-screen-bg-md.jpg");
+        /* height: 80vh; */
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        background-image: 100%;
+        padding: 200px;
+        /* padding-bottom: 0; */
+        
+    }
+    /* .bg-image{
+        padding-top:55%;
+    } */
+   #hero .content{
+       margin-top:-15%;
+       margin-left: 20%;
+       display: block;
+   }
+    #hero #heading2 {
+        font-size: 38px;
+        line-height: 1.2;
+        font-weight: 700;
+        padding: 0px 0px 18px;
+        text-align: left;
+        color: #ffffff;
+       /* text-shadow: 3px 0px 4px black; */
+    
+}
+    #hero #para {
     color: #ffffff;
     text-align: left;
     line-height: 2;
+    width: 800px;
+    font-size: 16px;
+    
+    font-weight: 700;
+    
 }
 
 .sm-png img {
-    margin: 0px 0px 0px -10px;
+    margin: 120px 0px 0px -25px;
     width: 70%;
     height: 50%;
+    padding-left: 25%;
+    
+}
+
 }
 
 .lock {
@@ -74,16 +226,10 @@
     width: 70%;
 }
 
+/* .power {
+    margin-left: 65%;
 
-/* 
-#battery-img img {
-    height: 60%;
-    width: 70%;
 } */
-
-#battery-img {
-    margin-right: 5%;
-}
 
 .random #magical,
 .battery #heading3 {
@@ -130,49 +276,4 @@
 
 .battery {
     margin-top: 5%;
-}
-
-@media (min-width: 768px) {
-    #hero #para {
-        width: 780px;
-        line-height: 2;
-    }
-}
-
-@media (min-width: 768px) {
-    #hero #heading2 {
-        font-size: 38px;
-    }
-}
-
-@media (min-width: 768px) {
-    .random #para2,
-    .lock p,
-    .battery #para2 {
-        width: 800px;
-        line-height: 2;
-        color: #000;
-    }
-    .random {
-        padding-top: 72px;
-    }
-    .battery .power {
-        background-image: url(http://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-batter-img1-sm.jpg);
-        background-size: 789px 297px;
-        width: 789px;
-        height: 297px;
-        margin-left: -394px;
-    }
-}
-
-@media (max-width: 720px) {
-    #hero {
-        background-size: 1152px 585px;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 1152px;
-        height: 585px;
-        left: 50%;
-        margin-left: -576px;
-    }
 }
