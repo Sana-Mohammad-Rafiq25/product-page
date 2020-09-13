@@ -69,7 +69,7 @@
         margin-left: -576px;
     }
 } */
-@media (max-width: 600px) {
+@media (max-width: 460px) {
 
 
     * {
@@ -84,7 +84,7 @@
     /* background-size: cover; */
     background-image: 100%;
     background-repeat: no-repeat;
-    width: 450px;
+    width: 400px;
     height: 585px;
     /* left: 50%; */
     margin-left: 0;
@@ -124,12 +124,18 @@ text-align: center;
     background-repeat: no-repeat;
     /* width: 334px;
     height: 162px; */
-    left: 50%;
+    left: 70%;
     /* margin-left: -167px; */
     bottom: 20px;
 }
-
-}@media only screen   
+#hero .sm-png img{
+    margin-left: 5%;
+    height: 80%;
+    width: 60%;
+    margin-top: 15%;
+}
+}
+@media only screen   
 and (min-device-width : 768px)   
 and (max-width: 1446px) {
     * {
@@ -256,21 +262,22 @@ and (max-width: 1446px) {
     /* background-image: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-unlocking-img1-sm.png); */
     background-size: 424px 517px;
     width: 424px;
-    height: 517px;
+    height: 516px;
     z-index: 8;
     margin-left: 6%;
 }
 
 .lock-images {
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .finger-print {
     background-image: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-unlocking-img2-sm.png);
     background-size: 420px 516px;
     width: 420px;
-    height: 516px;
-    margin-top: -49%;
+    height: 514px;
+    margin-top: -52%;
     margin-left: 35%;
 }
 
