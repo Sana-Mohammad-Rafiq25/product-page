@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 /* 
 #battery-img img {
     height: 60%;
@@ -27,36 +21,7 @@
 } */
 
 
-@media (min-width: 768px) {
-    .random #para2,
-    .lock p,
-    .battery #para2 {
-        width: 800px;
-        line-height: 2;
-        color: #000;
-    }
-    .random {
-        padding-top: 72px;
-    }
-    .battery .power {
-        background-image: url(http://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-batter-img1-sm.jpg);
-        background-size: 789px 297px;
-        width: 789px;
-        height: 297px;
-        margin-left: -20px;
-      
-    }
-    .battery .power #num1{
-        font-size: 100px;
-        opacity: .6;
-        line-height: 1em;
-        font-weight: 700;
-        margin-left: 52%;
-        color:#fff;
-      /* margin-left: -6px; */
-        padding-top: 8%;
-    }
-}
+
 
 /* @media (max-width: 720px) {
     #hero {
@@ -188,7 +153,33 @@ and (max-width: 1446px) {
     padding-left: 25%;
     
 }
-
+.random #para2,
+.lock p,
+.battery #para2 {
+    width: 800px;
+    line-height: 2;
+    color: #000;
+}
+.random {
+    padding-top: 72px;
+}
+.battery .power {
+    background-image: url(http://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-batter-img1-sm.jpg);
+    background-size: 100%;
+    width: 789px;
+    height: 297px;
+    margin-left: -20px;
+  
+}
+.battery .power #num1{
+    font-size: 100px;
+    opacity: .6;
+    line-height: 1em;
+    font-weight: 700;
+    margin-left: 52%;
+    color:#fff;
+  /* margin-left: -6px; */
+    padding-top: 8%;
 }
 
 .lock {
@@ -232,11 +223,6 @@ and (max-width: 1446px) {
     width: 70%;
 }
 
-/* .power {
-    margin-left: 65%;
-
-} */
-
 .random #magical,
 .battery #heading3 {
     font-size: 50px;
@@ -260,11 +246,11 @@ and (max-width: 1446px) {
 
 .face-lock img {
     /* background-image: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-unlocking-img1-sm.png); */
-    background-size: 424px 517px;
+    background-size: 100%;
     width: 424px;
     height: 516px;
     z-index: 8;
-    margin-left: 6%;
+    margin-left: 1%;
 }
 
 .lock-images {
@@ -274,13 +260,21 @@ and (max-width: 1446px) {
 
 .finger-print {
     background-image: url(https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/product/1571138221590/zip/img/y11-unlocking-img2-sm.png);
-    background-size: 420px 516px;
+    background-size: 100%;
     width: 420px;
     height: 514px;
     margin-top: -52%;
-    margin-left: 35%;
+    margin-left: 28%;
 }
 
 .battery {
     margin-top: 5%;
 }
+
+}
+
+
+/* .power {
+    margin-left: 65%;
+
+} */
